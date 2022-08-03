@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-My name is Andy Boothe, and I'm a Software Engineer. And Architect. Oh, and Data Scientist, too. Just an all-around nerd.
+My name is Andy Boothe, and I'm a Software Engineer. And Software Architect. Oh, and Data Scientist, too. Just an all-around nerd.
 
 - 🔭 I’m currently working on open source projects, my own ideas over at [aleph0io](https://github.com/aleph0io), and freelancing. I have deep professional experience in designing and building cloud-based software and data platforms, by myself and by leading teams. If you think I can help, drop me a line!
 - 👯 I’m looking to collaborate on Java-based open source projects that will have a big impact.
