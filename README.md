@@ -6,6 +6,12 @@ My name is Andy Boothe, and I'm a Software Engineer. And Software Architect. Oh,
 - 👯 I’m looking to collaborate on Java-based open source projects that will have a big impact.
 - 📫 How to reach me: Open an issue on [sigpwned/sigpwned](https://github.com/sigpwned/sigpwned), or use the email in my GitHub address!
 
+You can also find me on:
+
+- 🐦 [Twitter](https://twitter.com/sigpwned)
+- 🐘 [Mastodon](https://mstdn.social/@sigpwned)
+- 📚 [StackOverflow](https://stackoverflow.name/sigpwned)
+
 <!--
 **sigpwned/sigpwned** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
