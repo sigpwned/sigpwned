@@ -20,6 +20,7 @@ jobs:
         with:
           image-file: profile/stats.svg
           colors: dark
+          categories: general, repositories, contributions
           commit-and-push: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
