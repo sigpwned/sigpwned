@@ -2,7 +2,7 @@ name: Update README stats
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Runs once daily at midnight UTC
+    - cron: "0 0 * * 0" # Runs weekly on Sunday at midnight UTC
   workflow_dispatch:
 
 jobs:
@@ -21,7 +21,7 @@ jobs:
           card: stats
           options: username=${{ github.repository_owner }}&show_icons=true
           path: profile/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.STATS_TOKEN }}
 
       - name: Generate top languages card
         uses: stats-organization/github-readme-stats-action@v2
@@ -29,7 +29,7 @@ jobs:
           card: top-langs
           options: username=${{ github.repository_owner }}&layout=compact
           path: profile/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.STATS_TOKEN }}
 
       - name: Commit and push cards
         run: |
