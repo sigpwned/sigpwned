@@ -21,6 +21,7 @@ jobs:
           image-file: profile/stats.svg
           colors: dark
           hide-keys: languages
+          show-border: false
           commit-and-push: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -29,7 +30,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&theme=github_dark&disable_animations=true&card_width=610&langs_count=8
+          options: username=${{ github.repository_owner }}&layout=compact&theme=github_dark&disable_animations=true&card_width=610&langs_count=8&hide_border=true
           path: profile/top-langs.svg
           token: ${{ secrets.STATS_TOKEN }}
 
