@@ -30,7 +30,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&theme=github_dark&disable_animations=true&card_width=610&langs_count=8&hide_border=true
+          options: username=${{ github.repository_owner }}&layout=compact&theme=github_dark&disable_animations=true&card_width=610&langs_count=8&hide_border=true&border_radius=0
           path: profile/top-langs.svg
           token: ${{ secrets.STATS_TOKEN }}
 
